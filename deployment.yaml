@@ -1,0 +1,8 @@
+name: gpio_subscriber
+entrypoint: src/gpio_subscriber.toit
+triggers:
+  on_pubsub_topic:
+    - "cloud:Testing001"
+pubsub:
+  subscriptions:
+    - "cloud:Testing001"

@@ -1,0 +1,9 @@
+prefixes:
+  gpio_messaging: GPIOMessaging
+packages:
+  GPIOMessaging:
+    url: github.com/Molbeck/GPIOMessaging
+    version: 1.1.0
+    hash: 182a202e8efe3d8aef4b4c6773d0eceb95a93c86
+    prefixes:
+      gpio_messaging: GPIOMessaging
